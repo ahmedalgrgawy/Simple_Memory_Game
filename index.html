@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+        <div class="control-buttons">
+            <span>Start Game</span>
+        </div>
+        <div class="info">
+            <div class="name">
+                Hello:
+                <span></span>
+            </div>
+            <div class="tries">
+                Wrong Tries:
+                <span>0</span>
+            </div>
+        </div>
+        <div class="memory-game-blocks">
+            <div class="game-block" data-tech="ps">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/001-ps.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="ps">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/001-ps.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="programming">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/010-programming.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="programming">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/010-programming.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="css3">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/004-css-3.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="css3">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/004-css-3.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/006-github.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/006-github.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/003-javascript.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/003-javascript.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="html5">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/005-html.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="html5">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/005-html.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/007-php.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/007-php.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="cpp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/008-c.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="cpp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/008-c.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="python">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/002-python.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="python">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/002-python.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="c-sharp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/009-c-sharp.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="c-sharp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/009-c-sharp.png" alt="">
+                </div>
+            </div>
+        </div>
+        <audio id="background-music" src="sounds/Background Music.mp3" preload="auto" loop></audio>
+        <audio id="success" src="sounds/correct.mp3" preload="auto"></audio>
+        <audio id="fail" src="sounds/wrong.mp3" preload="auto"></audio>
+        <script src="js/code.js"></script>
+    </body>
+</html>
